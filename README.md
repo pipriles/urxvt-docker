@@ -26,7 +26,7 @@ Then run `XLaunch` on Windows and setup the server (Make sure to check the "Disa
 
 `docker run -v home:/root -v PATH_TO_ANYTHING:/mnt urxvt`
 
-As you can see I create attach two volumes to the container one will have the `/root` which will be created on the first time, so I can persist information of the session, which is kind of useful if you also use the terminal inside `neovim`…
+As you can see I attach two volumes to the container, one will have the `/root` which will be created on the first time so I can persist information of the session, which is kind of useful if you also use the terminal inside `neovim`…
 
 The other volume is to access files from the host inside the container (Like your work folder).
 
