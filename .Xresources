@@ -1,0 +1,111 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.hintstyle:              full
+! Xft.rgbbBa:               rgb
+! Xft.hinting:              1 
+
+URxvt.termName:	            rxvt-unicode
+URxvt.depth:                32
+URxvt.geometry:             95x22
+URxvt.transparent:          false
+URxvt.fading:               0
+URxvt.visualBell:           false
+URxvt.loginShell:           false
+URxvt.saveLines:            500
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0 
+! URxvt.buffered:           true
+! URxvt.urgentOnBell:       true
+
+! Fonts
+URxvt.allow_bold:           true
+
+URxvt.font:                 xft:envypn:style=Regular:pixelsize=15
+URxvt.boldFont:	            xft:envypn:style=Regular:pixelsize=15
+
+! Fix font space
+URxvt.letterSpace:          0
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,selection-to-clipboard
+URxvt.keysym.C-S-space:	    perl:url-select:select_next
+URxvt.url-select.launcher:  /usr/bin/xdg-open
+URxvt.url-select.underline: false
+
+!URxvt.matcher.button:       1
+!URxvt.urlLauncher:          google-chrome-stable
+
+! Cursor
+! URxvt.cursorColor:        #657b83
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #B3B3B3
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+! Disable iso14755
+
+URxvt.iso14755:             false
+URxvt.iso14755_52:          false
+
+URxvt.iconFile:				/usr/share/icons/Adwaita/scalable/apps/utilities-terminal-symbolic.svg
+
+! XTERM-CONFIG
+!------------------------------------------------
+
+XTerm*termName: xterm-256color
+
+! Fonts:
+Uxterm*faceName:            envypn:style=Regular
+Uxterm*faceSize:            15
+
+! Configuración local
+UXTerm*locale: 	true
+
+! Colors
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #070809
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
