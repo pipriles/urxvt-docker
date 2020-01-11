@@ -18,11 +18,11 @@ I personally used `chocolatey`:
 
 Then run `XLaunch` on Windows and setup the server (Make sure to check the "Disable access control" option).
 
-*Compile it*
+**Compile it**
 
 `docker build -t urxvt .`
 
-*Run it*
+**Run it**
 
 `docker run -v home:/root -v PATH_TO_ANYTHING:/mnt urxvt`
 
