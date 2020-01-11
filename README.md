@@ -40,4 +40,5 @@ I decided to not install the vim plugins when compiling the image but instead us
 - [ ] Maybe use another use that is not root?
 - [ ] Organize better the .Xresources and .vimrc files
 - [ ] Install ranger
+- [ ] Improve Dockerfile to not use so many `RUN`
 
