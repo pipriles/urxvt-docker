@@ -18,11 +18,11 @@ I personally used `chocolatey`:
 
 Then run `XLaunch` on Windows and setup the server (Make sure to check the "Disable access control" option).
 
-Compile it
+*Compile it*
 
 `docker build -t urxvt .`
 
-Run it
+*Run it*
 
 `docker run -v home:/root -v PATH_TO_ANYTHING:/mnt urxvt`
 
@@ -34,10 +34,10 @@ I decided to not install the vim plugins when compiling the image but instead us
 
 ## TO-DO
 
-[ ] Setup some kind of server to move files between windows and the container easy.
-[ ] Think about a way to make this work in Linux too (without the host.docker.internal trick).
-[ ] Migrate to Arch Linux because I want to.
-[ ] Maybe use another use that is not root?
-[ ] Organize better the .Xresources and .vimrc files
-[ ] Install ranger
+- [ ] Setup some kind of server to move files between windows and the container easy.
+- [ ] Think about a way to make this work in Linux too (without the host.docker.internal trick).
+- [ ] Migrate to Arch Linux because I want to.
+- [ ] Maybe use another use that is not root?
+- [ ] Organize better the .Xresources and .vimrc files
+- [ ] Install ranger
 
