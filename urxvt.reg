@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\urxvt]
+@="Open X Linux Terminal here"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\urxvt\command]
+@="wscript.exe C:\\Users\\oswal\\AppData\\Local\\Linux\\urxvt.vbs \"%V\""
